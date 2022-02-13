@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form  action="{{url_for('.thankyou')}}"  method="post">
+    <form action="checkbox.html" method="post">
+    <fieldset>
+        <legend>Check Out</legend>
+
+        <h3> Items in your bag</h3>
+        PINK WATERMELON..... $3.99
+        <hr>
+        <label>Enter username:<input type="username" name="username" placeholder="Type username...."> Ente email address: <input type="email" name="email" placeholder="Type email address..."> </label>
+
+            <input type="submit" name="Submit" value="Submit">
+
+
+    </fieldset>
+    </form>
+    </form>
+    <script type="text/javascript">
+      let displayName = ('productName' , 'price');
+      displayName.innerHTML = localStorage.getItem('prd_name');
+    </script>
+  </body>
+</html>

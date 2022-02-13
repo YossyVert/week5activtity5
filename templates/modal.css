@@ -1,0 +1,119 @@
+*{box-sizing: border-box; }
+.title{
+  background-color: purple;
+  color:pink;
+  text-align: center;
+
+}
+.link{
+  background-color: darkgray;
+  color: lightgray;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.link:hover{
+  background-color: purple;
+  color: darkgray;
+  box-shadow: 0px 0px 5px 1px purple;
+}
+
+.modalWindow{
+background-color:         rgba(150,150,150,0.6);
+position: fixed;
+top: 0px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+opacity: 0;
+pointer-events: none;
+}
+.modalWindow:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in 0.3s;
+}
+.content{
+  width: 550px;
+  height: 450px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  position: relative;
+}
+
+.close{
+  background-color: lightgray;
+  padding: 10px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  text-decoration: none;
+  color: purple;
+  font-weight: 600;
+}
+
+.close:hover{
+  background-color: darkgrey;
+  color: white;
+}
+
+.info{
+
+  width:100%;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+
+}
+
+.info img{
+  width: 50%;
+}
+
+.p{
+  position: absolute;
+  width: 60%;
+  top:0px;
+  right: 0px;
+
+}
+.p i{
+  font-size: 0.6em;
+}
+
+.p span{
+  text-decoration: line-through;
+
+}
+.p b{
+  color:red;
+  font-size: 1.2em;
+}
+
+.p br{
+  margin-top: 50px;
+}
+
+.p hr{
+  margin-top:60px;
+}
+
+.add{
+  display: block;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  background-color: rgb(50,50,50);
+  text-align: center;
+  padding: 10px 0px;
+  color: lightgray;
+  text-decoration: none;
+}
+
+.add:hover{
+  background-color: lightgray;
+  color: rgb(50,50,50);
+}
